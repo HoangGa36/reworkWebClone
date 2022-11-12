@@ -126,9 +126,7 @@ html{
 #slider{
     position: relative;
     margin-top: 46px;
-    padding-top: 50%;
-    background: url('/assets/IMG/ny.jpg') top center / cover no-repeat;
-
+    /* padding-top: 50%; */
 }
 /* Chinh cac text trong tung slider */
 #slider .text-content{
