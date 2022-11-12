@@ -48,9 +48,6 @@ html{
 .col-full{
     width: 100%;
 }
-#main{
-
-}
 /* Header */
 #header{
     position: fixed;
@@ -153,9 +150,7 @@ html{
 }
 
 
-#content{
-    
-}
+/* Content */
 .content-section{
     width: 800px;
     padding: 64px 16px 112px;
@@ -184,9 +179,8 @@ html{
 #content .member-list{
     margin: 48px 0;
 }
-#content .member-item{
-    
-}
+
+
 #content .member-name{
     font-size: 15px;
     margin: 15px 0;
