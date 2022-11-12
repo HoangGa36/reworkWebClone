@@ -135,6 +135,9 @@ html{
     bottom: 47px;
     text-align: center;
 }
+.slider__img{
+    width: 100%;
+}
 
 #slider .text-heading{
     font-size: 24px;
