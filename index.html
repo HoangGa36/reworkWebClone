@@ -7,6 +7,7 @@
     <title>w3_band</title>
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5968/5968267.png" type="image/x-icon" />
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
 </head>
 <body>
@@ -29,9 +30,12 @@
             </ul>
             <!-- End nav -->
             <!-- Begin search -->
-                <div class="search-button">
+            <div class="search-button">
                     <i class="ti-search"></i>
-                </div>
+            </div>
+            <div id="molbie-menu" class="menu-btn__responsive">
+                <i class="menu-icon ti-menu"></i>
+            </div>
             <!-- End search -->
         </div>
 
@@ -212,6 +216,28 @@
         modalContainer.addEventListener('click', function(event){
             event.stopPropagation();
         })
+     </script>
+     <script>
+        var header = document.getElementById('header');
+        var menuIcon = document.getElementById('molbie-menu');
+        var headerHeight = header.clientHeight;
+        menuIcon.onclick = function(){
+            var isClose = header.clientHeight === headerHeight;
+            if(isClose){
+                header.style.height='auto';
+            }else{
+                header.style.height= null;
+            }
+        }
+        // tu dong dong khi chon cac slection
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+        for(var i=0; i < menuItems.length; i++){
+            var menuItem = menuItems[i];
+            
+            menuItem.onclick = function (){
+                header.style.height= null;
+            }
+        }
     </script>
 </body>
 </html>

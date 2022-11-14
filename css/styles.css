@@ -58,6 +58,7 @@ html{
     background-color: black;
     z-index: 2;
     box-shadow:  0 0 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
 }
 /* Các navigation */
 #nav{
@@ -112,11 +113,22 @@ html{
 #nav .down-button{
     font-size: 14px;
 }
+#header .menu-btn__responsive,
 #header .search-button{
     float: right;
     color: white;
     padding: 0 21px;
     line-height: 46px;
+}
+#header .menu-btn__responsive{
+    display: none;
+}
+#header .menu-btn__responsive:hover{
+    background-color: #ccc;
+}
+#header .menu-btn__responsive:hover .menu-icon{
+    color: #000;
+    background-color: #ccc;
 }
 #header .search-button:hover{
     background-color: #f44336;

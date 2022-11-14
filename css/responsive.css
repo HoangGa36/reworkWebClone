@@ -1,0 +1,11 @@
+@media only screen and (max-width: 740px){
+    #nav > li{
+        display: block;
+    } 
+    #header .search-button{
+        display: none;
+    }
+    #header .menu-btn__responsive{
+        display: block;
+    }
+}
