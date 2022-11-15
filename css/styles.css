@@ -58,7 +58,6 @@ html{
     background-color: black;
     z-index: 2;
     box-shadow:  0 0 10px rgba(0, 0, 0, 0.5);
-    overflow: hidden;
 }
 /* Các navigation */
 #nav{
@@ -122,6 +121,9 @@ html{
 }
 #header .menu-btn__responsive{
     display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 #header .menu-btn__responsive:hover{
     background-color: #ccc;
