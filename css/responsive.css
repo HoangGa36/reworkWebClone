@@ -11,6 +11,14 @@
     #nav > li{
         display: block;
     } 
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 38px;
+    }
     #header .search-button{
         display: none;
     }
