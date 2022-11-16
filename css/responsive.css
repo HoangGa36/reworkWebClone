@@ -1,4 +1,11 @@
 @media only screen and (max-width: 740px){
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+    .s-full-width,
+    .s-col-full{
+        width: 100% !important;
+    }
     #header{
         overflow: hidden;
     }
@@ -24,5 +31,16 @@
     }
     #header .menu-btn__responsive{
         display: block;
+    }
+    #content .member-item{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .contact-info{
+        margin-top: 16px;
+    }
+    .contact-form{
+        padding-left: 0;
+        padding-right: 0;
     }
 }
