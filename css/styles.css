@@ -414,6 +414,8 @@ html{
     color: #fff;
     border: none;
     float: right;
+    appearance: none;
+    -webkit-appearance: none;
 }
 .form-submit-btn:hover{
     background-color: #ccc;
